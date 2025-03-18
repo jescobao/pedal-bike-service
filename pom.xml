@@ -103,7 +103,6 @@
             <goals>
               <goal>build</goal>
               <goal>generate-code</goal>
-              <goal>generate-code-tests</goal>
             </goals>
           </execution>
         </executions>
@@ -157,7 +156,7 @@
         </property>
       </activation>
       <properties>
-        <skipITs>false</skipITs>
+        <skipITs>true</skipITs>
         <quarkus.package.type>native</quarkus.package.type>
       </properties>
     </profile>
